@@ -27,8 +27,13 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+```bash
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions
+```
+```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-syntax-highlighting
+```bash
 vi ~/.zshrc
 ```
 zshrc에 플러그인 추가
@@ -48,8 +53,14 @@ source ~/.zshrc
 - powerlevel10k 테마 설치 및 적용
 ```bash
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+```
+```bash
 vi ~/.zshrc
+```
+```bash
 ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+```bash
 source ~/.zshrc
 ```
 ### pyenv 설치 및 python, virtualenv 설치
@@ -64,11 +75,13 @@ curl https://pyenv.run | bash
 
 ```bash
 vi ~/.zshrc
-
+```
+```bash
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
-
+```
+```bash
 source ~/.zshrc
 ```
 
