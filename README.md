@@ -4,26 +4,26 @@
 
 ### oh-my-zsh 설치 및 플러그인, 테마 설치
 
-- 첫번째, apt 업데이트 & 업그레이드
+- apt 업데이트 & 업그레이드
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove
 && sudo apt-get autoclean
 ```
 
-- 두번째, zsh 설치
+- zsh 설치
 
 ```bash
 sudo apt update && sudo apt install -y zsh
 ```
 
-- 세번째, oh-my-zsh 설치
+- oh-my-zsh 설치
 
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-- 네번째, oh-my-zsh 플러그인 설치
+- oh-my-zsh 플러그인 설치 및 적용용
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -37,7 +37,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ```bash
 vi ~/.zshrc
 ```
-zshrc에 플러그인 추가
+
 ``` bash
 plugins=(
         git
@@ -46,7 +46,7 @@ plugins=(
         zsh-syntax-highlighting
 )
 ```
-플러그인 적용
+
 ```bash
 source ~/.zshrc
 ```
@@ -66,13 +66,13 @@ source ~/.zshrc
 ```
 ### pyenv 설치 및 python, virtualenv 설치
 
-- 첫번째, pyenv 설치
+- pyenv 설치
 
 ```bash
 curl https://pyenv.run | bash
 ```
 
-- pyenv 환경변수 추가 및 적용용
+- pyenv 환경변수 추가 및 적용
 
 ```bash
 vi ~/.zshrc
@@ -106,7 +106,7 @@ pyenv install 3.13.3
 pyenv global 3.13.3
 ```
 
-- 가상화화 python 설치
+- 가상화 python 설치
 pyenv virtualenv 3.13.3 myenv
 ```bash
 pyenv virtualenv 3.13.3 myenv
