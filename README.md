@@ -23,7 +23,7 @@ sudo apt update && sudo apt install -y zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-- oh-my-zsh 플러그인 설치 및 적용용
+- oh-my-zsh 플러그인 설치 및 적용
 
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -100,7 +100,7 @@ xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git
 pyenv install 3.13.3
 ```
 
-- 파이선 버전 전역 설정정
+- 파이선 버전 전역 설정
 
 ```bash
 pyenv global 3.13.3
