@@ -56,8 +56,8 @@ source ~/.zshrc
 ```
 
 - powerlevel10k 테마 설치 및 적용
-
-- font 설치
+- [테마 깃허브 바로가기](https://github.com/romkatv/powerlevel10k)
+- font 설치 (필수사항) 대신 다른 너드 폰트 등으로 대체 가능 
    - [MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)
    - [MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)
    - [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
