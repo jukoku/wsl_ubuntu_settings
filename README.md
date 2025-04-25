@@ -16,6 +16,11 @@ sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove && sud
 sudo apt update && sudo apt install -y zsh
 ```
 
+- curl, git, vim 설치 (ubuntu)
+```bash
+sudo apt-get install vim curl git -y
+```
+
 - oh-my-zsh 설치
 
 ```bash
@@ -34,7 +39,7 @@ git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.o
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-syntax-highlighting
 ```
 ```bash
-vi ~/.zshrc
+vim ~/.zshrc
 ```
 
 ``` bash
@@ -55,7 +60,7 @@ source ~/.zshrc
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 ```bash
-vi ~/.zshrc
+vim ~/.zshrc
 ```
 ```bash
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -74,7 +79,7 @@ curl https://pyenv.run | bash
 - pyenv 환경변수 추가 및 적용
 
 ```bash
-vi ~/.zshrc
+vim ~/.zshrc
 ```
 ```bash
 export PYENV_ROOT="$HOME/.pyenv"
