@@ -7,8 +7,7 @@
 - apt 업데이트 & 업그레이드
 
 ```bash
-sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove
-&& sudo apt-get autoclean
+sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get autoremove && sudo apt-get autoclean
 ```
 
 - zsh 설치
