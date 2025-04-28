@@ -127,4 +127,14 @@ pyenv virtualenv 3.13.3 myenv
 
 ```bash
 pyenv local myenv
+
+## IDE 설치 (추가)
+
+### 안드로이드 스튜디오 설치
+
+```bash
+sudo apt-add-repository ppa:maarten-fonville/android-studio
+sudo apt-get update
+sudo apt-get install android-studio
 ```
+
