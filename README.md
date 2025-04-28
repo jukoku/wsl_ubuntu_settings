@@ -135,7 +135,13 @@ pyenv local myenv
 
 ```bash
 sudo apt-add-repository ppa:maarten-fonville/android-studio
+```
+
+```bash
 sudo apt-get update
+```
+
+```bash
 sudo apt-get install android-studio
 ```
 
