@@ -127,6 +127,7 @@ pyenv virtualenv 3.13.3 myenv
 
 ```bash
 pyenv local myenv
+```
 
 ## IDE 설치 (추가)
 
